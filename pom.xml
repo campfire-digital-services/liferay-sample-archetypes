@@ -42,4 +42,12 @@
     <module>liferay-sample-spring-mvc-portlet-archetype</module>
   </modules>
   
+  
+  <distributionManagement>
+    <repository>
+      <id>permeance-repo</id>
+      <name>Permeance Private Repository</name>
+      <url>https://repo.permeance.com.au/archiva/repository/internal</url>
+    </repository>
+  </distributionManagement>  
 </project>
