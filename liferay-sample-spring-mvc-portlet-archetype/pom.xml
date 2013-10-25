@@ -9,10 +9,34 @@
 
   <name>liferay-sample-spring-mvc-portlet-archetype</name>
 
-  <parent>
-    <groupId>au.com.permeance.maven.archetype</groupId>
-    <artifactId>sample-archetypes</artifactId>
-    <version>1.0-SNAPSHOT</version>
-  </parent>
-  
+  <scm>
+    <connection>
+      scm:git:https://github.com/permeance/${project.artifactId}.git
+    </connection>
+    <developerConnection>
+      scm:git:https://git@github.com/permeance/${project.artifactId}.git
+    </developerConnection>
+    <url>
+      https://github.com/permeance/${project.artifactId}
+    </url>
+  </scm>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>2.2</version>
+      </extension>
+    </extensions>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>2.2</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>
