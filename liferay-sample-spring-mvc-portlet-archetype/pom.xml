@@ -4,7 +4,7 @@
 
   <groupId>au.com.permeance.maven.archetype</groupId>
   <artifactId>liferay-sample-spring-mvc-portlet-archetype</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>maven-archetype</packaging>
 
   <name>liferay-sample-spring-mvc-portlet-archetype</name>
