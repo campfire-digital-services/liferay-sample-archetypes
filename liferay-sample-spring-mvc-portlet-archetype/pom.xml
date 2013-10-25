@@ -4,10 +4,22 @@
 
   <groupId>au.com.permeance.maven.archetype</groupId>
   <artifactId>liferay-sample-spring-mvc-portlet-archetype</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>liferay-sample-spring-mvc-portlet-archetype</name>
+
+  <scm>
+    <connection>
+      scm:git:https://github.com/permeance/${project.artifactId}.git
+    </connection>
+    <developerConnection>
+      scm:git:https://git@github.com/permeance/${project.artifactId}.git
+    </developerConnection>
+    <url>
+      https://github.com/permeance/${project.artifactId}
+    </url>
+  </scm>
 
   <build>
     <extensions>
