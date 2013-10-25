@@ -9,4 +9,11 @@
 
   <name>liferay-sample-spring-mvc-portlet-archetype</name>
 
+  <parent>
+    <groupId>au.com.permeance.maven.archetype</groupId>
+    <artifactId>liferay-sample-archetypes</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+
 </project>
