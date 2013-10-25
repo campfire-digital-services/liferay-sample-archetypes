@@ -11,13 +11,13 @@
 
   <scm>
     <connection>
-      scm:git:https://github.com/permeance/${project.artifactId}.git
+      https://github.com/permeance/liferay-sample-archetypes.git
     </connection>
     <developerConnection>
-      scm:git:https://git@github.com/permeance/${project.artifactId}.git
+      https://github.com/permeance/liferay-sample-archetypes.git
     </developerConnection>
     <url>
-      https://github.com/permeance/${project.artifactId}
+      https://github.com/permeance/liferay-sample-archetypes.git
     </url>
   </scm>
 
