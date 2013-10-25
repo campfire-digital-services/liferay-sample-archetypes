@@ -45,7 +45,7 @@
   
   <distributionManagement>
     <repository>
-      <id>permeance-repo</id>
+      <id>permeance-internal</id>
       <name>Permeance Private Repository</name>
       <url>https://repo.permeance.com.au/archiva/repository/internal</url>
     </repository>
