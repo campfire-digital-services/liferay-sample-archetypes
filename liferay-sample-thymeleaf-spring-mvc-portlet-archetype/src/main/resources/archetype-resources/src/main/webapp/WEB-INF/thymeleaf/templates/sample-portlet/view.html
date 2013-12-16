@@ -1,0 +1,16 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns:th="http://www.thymeleaf.org">
+<head></head>
+<body>
+	<h1 th:text="${symbol_dollar}{thtest}">Heading to be replaced by ThymeLeaf</h1>
+
+	This is a sample portlet<br/>
+	<a href="${symbol_pound}" th:href="${symbol_dollar}{actionUrl}">Action Link</a><br/>
+	<br/>
+	<a href="${symbol_pound}" th:href="${symbol_dollar}{resourceUrl}">Resource Link</a><br/>
+
+</body>
+</html>

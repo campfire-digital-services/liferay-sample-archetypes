@@ -40,6 +40,7 @@
   
   <modules>
     <module>liferay-sample-spring-mvc-portlet-archetype</module>
+    <module>liferay-sample-thymeleaf-spring-mvc-portlet-archetype</module>
   </modules>
   
   
